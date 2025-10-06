@@ -3554,11 +3554,11 @@ Widget loadPowered(BuildContext context) {
 // max 300 x 60
 Widget loadLogo() {
   return FutureBuilder<ByteData>(
-      future: rootBundle.load('assets/logo.png'),
+      future: rootBundle.load('assets/naux_logo.png'),
       builder: (BuildContext context, AsyncSnapshot<ByteData> snapshot) {
         if (snapshot.hasData) {
           final image = Image.asset(
-            'assets/logo.png',
+            'assets/naux_logo.png',
             fit: BoxFit.contain,
             errorBuilder: (ctx, error, stackTrace) {
               return Container();
@@ -3574,7 +3574,7 @@ Widget loadLogo() {
 }
 
 Widget loadIcon(double size) {
-  return Image.asset('assets/icon.png',
+  return Image.asset('assets/naux_favicon.png',
       width: size,
       height: size,
       errorBuilder: (ctx, error, stackTrace) => SvgPicture.asset(

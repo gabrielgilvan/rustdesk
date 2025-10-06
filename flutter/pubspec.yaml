@@ -125,14 +125,14 @@ dependency_overrides:
 
 # rerun: flutter pub run flutter_launcher_icons
 flutter_icons:
-  image_path: "../res/icon.png"
+  image_path: "../res/naux_favicon.png"
   remove_alpha_ios: true
   android: true
   ios: true
   windows:
     generate: true
   macos:
-    image_path: "../res/mac-icon.png"
+    image_path: "../res/mac-naux_favicon.png"
     generate: true
   linux: true
   web:

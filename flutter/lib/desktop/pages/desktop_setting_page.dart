@@ -1584,7 +1584,7 @@ class _NetworkState extends State<_Network> with AutomaticKeepAliveClientMixin {
         horizontalTitleGap: 10,
       );
     }
-
+/*
     return _Card(
       title: 'Network',
       children: [
@@ -1629,6 +1629,8 @@ class _NetworkState extends State<_Network> with AutomaticKeepAliveClientMixin {
         ),
       ],
     );
+
+    */
   }
 }
 
