@@ -1,0 +1,5 @@
+Repo: gabrielgilvan/rustdesk
+Workflow: flutter-build.yml
+Branch: master
+Run: 18621487843
+URL: https://github.com/gabrielgilvan/rustdesk/actions/runs/18621487843
