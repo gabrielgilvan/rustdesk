@@ -6,7 +6,6 @@ on:
   workflow_dispatch:
   push:
     branches: [ master ]
-
 name: Build the flutter version of the RustDesk
 
 env:
@@ -2035,5 +2034,6 @@ jobs:
           tag_name: ${{ env.TAG_NAME }}
           files: |
             flutter/build/rustdesk-${{ env.VERSION }}-${{ env.RELEASE_NAME }}.tar.gz
+
 
 
